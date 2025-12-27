@@ -1,0 +1,46 @@
+body {
+  background:#020617;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+  padding:20px;
+}
+
+#table {
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:8px;
+  max-width:900px;
+  margin:auto;
+}
+
+.element {
+  background:#1e293b;
+  padding:10px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.element:hover {
+  background:#334155;
+}
+
+.selected {
+  background:#22c55e !important;
+  color:black;
+}
+
+button {
+  margin-top:20px;
+  padding:12px 20px;
+  font-size:16px;
+  border:none;
+  border-radius:8px;
+}
+
+#selected, #output {
+  margin-top:20px;
+  padding:15px;
+  background:#0f172a;
+  border-radius:10px;
+}
